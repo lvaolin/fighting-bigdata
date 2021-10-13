@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.dhy</groupId>
+	<artifactId>bigdata</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>bigdata</name>
+	<modules>
+		<module>bigdata-test</module>
+	</modules>
+	<properties>
+		<java_source_version>1.8</java_source_version>
+		<java_target_version>1.8</java_target_version>
+		<file_encoding>UTF-8</file_encoding>
+	</properties>
+</project>
