@@ -35,11 +35,11 @@ public class Demo {
         // Looks the schema of this DataFrame.  打印所有企业基本信息
 
         df.printSchema();
-        //df.show();
+        df.show();
 
-        df.foreach((row)->{
-            System.out.println(row.prettyJson());
-        });
+//        df.foreach((row)->{
+//            System.out.println(row.prettyJson());
+//        });
 
         // Counts edf_org by accountingStandards 按会计准则进行分类统计
         Dataset<Row> countsByAccountingStandards = df.groupBy("accountingStandards").count();
@@ -48,5 +48,6 @@ public class Demo {
         // Saves countsByAge to S3 in the JSON format. 将统计结果以json格式保存到另一个地方
         //countsByAccountingStandards.write().format("json").save("s3a://...");
 
+        while (true);
     }
 }
