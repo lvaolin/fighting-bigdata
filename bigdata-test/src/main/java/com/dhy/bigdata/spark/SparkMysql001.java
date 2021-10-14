@@ -8,11 +8,11 @@ import org.apache.spark.sql.SQLContext;
 
 /**
  * @Project cola-boss
- * @Description 主要用途描述
+ * @Description 使用spark简单查询一个MySQL表中的数据，并做一个简单统计输出
  * @Author lvaolin
  * @Date 2021/10/13 下午4:17
  */
-public class Demo {
+public class SparkMysql001 {
 
     public static void main(String[] args) {
         // Creates a DataFrame based on a table named "people"
